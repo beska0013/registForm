@@ -1,0 +1,13 @@
+@mixin d-flex{
+display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@keyframes type {
+0%{
+  width: 0;
+}
+100%{
+  width: 818px;
+}
+}
