@@ -6,17 +6,23 @@
     <link rel="stylesheet" href="./main.css">
 </head>
 <body class="page2">
-<form action="./index2.html" class="sighnin">
-    <input type="email" placeholder="email">
-    <input type="password" placeholder="password">
-    <button type="submit">registration</button>
+<form action="javascript:void[0]" class="sighnin" name="logIn">
+    <label for="loginemail">
+    <input id="loginemail" type="email" placeholder="email">
+        <span class="error"></span>
+    </label>
+    <label for="loginpass">
+    <input id="loginpass" type="password" placeholder="password">
+        <span class="error"></span>
+    </label>
+    <button id="logBtn" type="submit">registration</button>
 </form>
-<div class="text">
+<div id="textAnime" class="text">
     <h1>U DID WELL :)</h1>
 </div>
 
 
 
-<script src="script.js"></script>
+<script src="script2.js"></script>
 </body>
 </html>
